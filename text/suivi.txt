@@ -1,0 +1,23 @@
+Séance n°1: 3 II 2023
+Recap:
+BDD à traiter en relationel mangoDB 
+classification des reviews (TAL) par rapport aux notes d’abord car on a pas de label
+recommandation : filtrage collaboratif 
+ouvert : GNN
+
+Travail perso effectué: 
+On a chargé les données sur la plateforme MongoDB téléchargée au préalable. 
+On a analysé les données et leur sémantique et on a  réalisé des statistiques dessus :
+histogramme de la répartition des notes
+utiliser la médiane pour l’obtention de classes équilibrées? Mais médiane=8 donc qu’en est-il de l’interprétation selon laquelle un 7 est une ‘mauvaise’ note ?
+calcul de la moyenne, médiane, écart type
+à l’aide des techniques de preprocessing on a commencé à traiter les avis relatifs aux jeux
+Word Cloud avec stop words
+Word Cloud sans stop words : on a remarqué que les avis étaient biaisés par le vocabulaire (bcp d’apparition du mot ‘jeu’) par exemple donc peut être créer une nouvelle liste de stopwords?
+Odds répartition nous donne les mots les moins fréquents NB: voc noms propres et english words. 
+
+Séance n°2: 10 II 2023
+Recap
+	
+Travail perso effectué:
+
